@@ -1,12 +1,10 @@
-# Investigations and Ethics
+# Investigations
 
 **THE CISSP TOPICS COVERED IN  THIS CHAPTER INCLUDE:**
 
 - **Domain 1.0: Security and Risk Management**
-    - 1.1 Understand, adhere to, and promote professional ethics
-        - 1.1.1 ISC2 Code of Professional Ethics
-        - 1.1.2 Organizational code of ethics
     - 1.5 Understand requirements for investigation types (e.g., administrative, criminal, civil, regulatory, industry standards)
+
 - **Domain 7.0: Security Operations**
     - 7.1 Understand and comply with investigations
         - 7.1.1 Evidence collection and handling
@@ -14,8 +12,6 @@
         - 7.1.3 Investigative techniques
         - 7.1.4 Digital forensics tools, tactics, and procedures
         - 7.1.5 Artifacts (e.g., data, computer, network, mobile device)
-
-In this chapter, we explore the process of investigating computer security incidents and collecting evidence when appropriate. This chapter also includes a complete discussion of ethical issues and the code of conduct for information security practitioners.
 
 As a security professional, you must be familiar with the various types of investigations. These include administrative, criminal, civil, and regulatory investigations, as well as investigations that involve industry standards. You must be familiar with the standards of evidence used in each investigation type and the forensic procedures used to gather evidence in support of investigations.
 
@@ -236,3 +232,4 @@ Let's think about this in the context of an example. Suppose that an attacker co
 - The database server may also have relevant information. If logging is enabled on that server, you'll see the commands executed against the database and be able to reconstruct the attacker's actions.
 
 Those are a ton of different information sources, and they're all brought to us by thinking through an attack in the context of Locard's exchange principle. If we think about how an attack took place and remember that every contact leaves a trace, we'll have plenty of different information sources we can use to piece together our investigation.
+
